@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: KBC
+    env: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm run dev
+    envVars:
+      - key: NODE_ENV
+        value: production
