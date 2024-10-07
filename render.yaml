@@ -3,7 +3,7 @@ services:
     name: KBC
     env: node
     plan: starter
-    rootDir: /opt/render/project/src/frontend
+    rootDir: frontend
     buildCommand: npm install
     startCommand: npm run dev
     envVars:
